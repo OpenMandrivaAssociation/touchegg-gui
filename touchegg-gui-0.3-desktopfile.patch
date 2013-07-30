@@ -1,0 +1,20 @@
+--- touchegg-gui/installation/touchegg-gui.desktop.orig	2012-08-28 00:08:41.362534136 +0200
++++ touchegg-gui/installation/touchegg-gui.desktop	2012-08-28 00:09:23.057533303 +0200
+@@ -1,12 +2,13 @@
+-#!/usr/bin/env xdg-open
+ [Desktop Entry]
+ Name=Touchégg GUI
+ Comment=Configure easily Touchégg
+ Comment[es]=Configure fácilmente Touchégg
++Comment[it]=Configura facilmente Touchégg
++Comment[ru]=Базовая настройка Touchégg
+ Type=Application
+-Exec=/usr/bin/touchegg-gui
++Exec=touchegg-gui
+ Terminal=false
+-Icon=touchegg-gui.png
++Icon=touchegg-gui
+-Categories=Settings
++Categories=Settings;
+ StartupWMClass=touchegg-gui
+ StartupNotify=true
