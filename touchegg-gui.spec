@@ -7,6 +7,7 @@ Group:		System/Configuration/Hardware
 Source0:	https://touchegg.googlecode.com/files/%{name}-%{version}.tar.gz
 Url:		https://code.google.com/p/touchegg
 Patch0:		%{name}-0.3-desktopfile.patch
+BuildRequires:	make
 BuildRequires:	pkgconfig(QtGui)
 BuildRequires:	desktop-file-utils
 Requires:	touchegg
